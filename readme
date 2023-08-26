@@ -1,0 +1,5 @@
+Transfer Learning - Mobilenetv2
+
+Transfer learning using MobileNetV2 involves leveraging a pre-trained neural network model called MobileNetV2 as a feature extractor for a new task. MobileNetV2 is designed for efficient deep learning on mobile devices and offers a balance between computational efficiency and high performance. In transfer learning, the pre-trained MobileNetV2 model's layers are used as a feature extractor, and a custom classification head is added on top. By freezing the MobileNetV2 layers and training only the new classification head, the model can learn to recognize new classes without requiring extensive computational resources. This approach is particularly useful when dealing with limited labeled data, as it harnesses the knowledge learned from a large dataset in a different domain, resulting in faster and more accurate model training.
+
+To learn more click on https://medium.com/@tahera-firdose/transfer-learning-with-mobilenet-cdafe54b5c42
